@@ -36,7 +36,7 @@ const ItemDetails = () => {
 
   async function getItems() {
     const items = await fetch(
-      `http://localhost:1337/api/items?populate=image`,
+      `https://clothing-site-psi.vercel.app/api/items?populate=image`,
       {
         method: "GET",
       }
