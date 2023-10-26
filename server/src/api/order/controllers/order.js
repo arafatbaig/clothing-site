@@ -38,8 +38,8 @@ module.exports = createCoreController("api::order.order", ({ strapi }) => ({
         payment_method_types: ["card"],
         customer_email: email,
         mode: "payment",
-        success_url: "http://localhost:3000/checkout/success",
-        cancel_url: "http://localhost:3000",
+        success_url: "https://clothing-site-2kny.vercel.app//checkout/success",
+        cancel_url: "https://clothing-site-2kny.vercel.app/",
         line_items: lineItems,
       });
 
